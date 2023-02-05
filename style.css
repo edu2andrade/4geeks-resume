@@ -5,6 +5,16 @@
   overflow-x: hidden;
 }
 
+body {
+  background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
+  color: lightgray;
+  font-family: 'Roboto', sans-serif;
+}
+
+.nav-link {
+  color: lightgray; 
+}
+
 .hero {
   height: 600px;
   position: relative;
@@ -27,18 +37,51 @@
 }
 
 .heroCol > h1 {
-  color: white;
   font-size: 5rem;
   font-weight: bold;
   z-index: 10;
+  color: lightgray; 
 }
 
 .heroCol > p {
-  color: white;
   font-size: 2.5rem;
   z-index: 10;
+  color: lightgray; 
+}       
+           
+.btn-grad {
+  background-image: linear-gradient(to right, #4b6cb7 0%, #182848  51%, #4b6cb7  100%);
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: lightgray;        
+  border-radius: 10px;
+  display: block;
 }
 
-.portfolio {
-  height: 600px; 
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
 }
+
+
+.icons > a {
+  color: lightgray; 
+}
+
+.card-body {
+  background-color: #5D8AA8; 
+  color: lightgray; 
+}
+
+/* CSS HEX
+--space-cadet: #2B3260ff;
+--blue-violet-color-wheel: #531586ff;
+--duke-blue: #120998ff;
+--capri: #29B6FDff;
+--sky-blue-crayola: #52E1FFff; */
+
